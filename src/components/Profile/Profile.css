@@ -1,0 +1,40 @@
+.profile__and__gallary {
+  max-width: 600px;
+  margin: 0px auto;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 18px 0px;
+  border-bottom: 1px solid gray;
+}
+.profile__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.profile__alldetails {
+  display: flex;
+  flex-direction: column;
+}
+.profile__details {
+  display: flex;
+  justify-content: space-around;
+}
+.profile__details > h6 {
+  margin-right: 10px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+  margin: 10px;
+}
+.update_button {
+  width: 150px;
+  margin: 20px 0px;
+}

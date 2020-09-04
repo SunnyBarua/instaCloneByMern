@@ -1,0 +1,35 @@
+.brand-logo {
+  float: left;
+  font-family: "Grand Hotel", cursive;
+}
+a {
+  color: black !important;
+}
+.nav-wrapper {
+  background-color: white;
+}
+
+.logout_button {
+  margin-right: auto !important;
+}
+@media only screen and (max-width: 900px) {
+  .nav-wrapper .brand-logo {
+    position: absolute !important;
+    left: 10% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .nav-wrapper .brand-logo {
+    position: absolute !important;
+    left: 10% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav-wrapper .brand-logo {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  .nav-wrapper > #nav-mobile {
+    width: 400px !important;
+  }
+}

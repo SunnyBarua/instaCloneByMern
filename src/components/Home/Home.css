@@ -1,0 +1,45 @@
+.home__card {
+  max-width: 600px;
+  height: max-content;
+  margin: 25px auto;
+  border-radius: 20px;
+}
+.material-icons {
+  color: gray;
+}
+.post__image {
+  width: 600px;
+}
+.postedBy {
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.delete__icon {
+  float: right;
+  font-size: 28px;
+}
+.postedBy__image {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.postedBy__name {
+  display: flex;
+  font-weight: bolder;
+  font-size: 26px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: green;
+}
+.postedBy__namewithimage {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.name__deleteIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
